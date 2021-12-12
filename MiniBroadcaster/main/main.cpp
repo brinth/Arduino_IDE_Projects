@@ -1,3 +1,9 @@
+#include <stdio.h>
+#include "sdkconfig.h"
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+#include "espsystem.h"
+#include "esp_spi_flash.h"
 #include "udpServer.h"
 #include "display.h"
 
